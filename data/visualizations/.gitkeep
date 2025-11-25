@@ -1,0 +1,2 @@
+# This file ensures the visualizations directory is tracked by git
+# Actual visualization files are ignored via .gitignore

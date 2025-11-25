@@ -1,0 +1,141 @@
+================================================================================
+DETAILED SENTIMENT ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-11-04 10:25:13
+Total Comments Analyzed: 86
+
+--------------------------------------------------------------------------------
+OVERALL SENTIMENT DISTRIBUTION
+--------------------------------------------------------------------------------
+Negative: 55 (63.95%)
+Positive: 31 (36.05%)
+
+Average Confidence Score: 36.00/100
+Median Confidence Score: 1.00/100
+
+--------------------------------------------------------------------------------
+CONFIDENCE SCORE RANGES
+--------------------------------------------------------------------------------
+0-20 (Very Negative): 55 (63.95%)
+20-40 (Negative): 0 (0.00%)
+40-60 (Neutral): 0 (0.00%)
+60-80 (Positive): 0 (0.00%)
+80-100 (Very Positive): 31 (36.05%)
+
+--------------------------------------------------------------------------------
+TOP 10 MOST POSITIVE COMMENTS
+--------------------------------------------------------------------------------
+
+Score: 99/100
+Comment: The Simpson is a fire partnership...
+Author: @Philly_prod532
+Likes: 77
+
+Score: 99/100
+Comment: No need to take it so seriously...
+Author: @mopedhufsa8251
+Likes: 0
+
+Score: 99/100
+Comment: @viniitnneither do I, and I still know he’s played enough of the game to not be so shit...
+Author: @OLS20
+Likes: 1
+
+Score: 99/100
+Comment: @OLS20 exactly it&#39;s basic game sense, shows the years have finally gotten to him...
+Author: @saltybread7297
+Likes: 0
+
+Score: 99/100
+Comment: Why doesn&#39;t Vik post his Fortnite gaming? We want to see more perspectives....
+Author: @juniorlandsberg4142
+Likes: 168
+
+Score: 99/100
+Comment: @NaDan.5nah I mean Vikstar. From the last game. I wanted to see his play....
+Author: @juniorlandsberg4142
+Likes: 14
+
+Score: 99/100
+Comment: As much as I&#39;d love that remake we aint ready for it as much as we think we are, just look at the GTA trilogy remakes and how they launched 💀💀...
+Author: @MachBProductions
+Likes: 1
+
+Score: 99/100
+Comment: Just wanted to say I appreciate the 1440p quality 👌👌...
+Author: @MISHY_RSA
+Likes: 13
+
+Score: 99/100
+Comment: Ya know what would be nice every season.. OUR TEAMS ACTUALLY FIGHTING...
+Author: @akarlolol172
+Likes: 0
+
+Score: 99/100
+Comment: What a fun game staying away from action for 45 mins...
+Author: @husquy100
+Likes: 6
+
+--------------------------------------------------------------------------------
+TOP 10 MOST NEGATIVE COMMENTS
+--------------------------------------------------------------------------------
+
+Score: 0/100
+Comment: Simon is officially an unc. Dude not paying attention to his chat saying reload ar but sees the chat say holy camping lmao...
+Author: @AustinJD17
+Likes: 80
+
+Score: 0/100
+Comment: And left a golden scar and leaving 3 big pots for 2 mini&#39;s........
+Author: @Kawasaki1809
+Likes: 2
+
+Score: 0/100
+Comment: @Kawasaki1809 he doesnt play regularly...
+Author: @viniitn
+Likes: 0
+
+Score: 0/100
+Comment: Who&#39;s we? I don&#39;t want to see him play Fortnite lmao...
+Author: @HSTLMLWL
+Likes: 4
+
+Score: 0/100
+Comment: Can’t believe we got Fortnite simpsons before hit and run remastered. Fr, Fortnite cooked...
+Author: @CODBotDAN
+Likes: 27
+
+Score: 0/100
+Comment: Simon talking about being a certain level of Simpsons fan and then referring to Steamed hams as “burgers” and then not knowing how to get upstairs in the simpsons house… disappointing...
+Author: @jacksamuel_97
+Likes: 1
+
+Score: 0/100
+Comment: Huh bot?...
+Author: @sameedarceusmaster6333
+Likes: 0
+
+Score: 0/100
+Comment: ​​@sameedarceusmaster6333wdym...
+Author: @MISHY_RSA
+Likes: 0
+
+Score: 0/100
+Comment: This could be a sidemen among us mod? perhaps?...
+Author: @lorenzovonmatterhorn6773
+Likes: 1
+
+Score: 0/100
+Comment: Never heard anyone call it a 50 pot 😂. I&#39;ve always called it a half pot....
+Author: @MrWobbless89JoshTiley
+Likes: 1
+
+--------------------------------------------------------------------------------
+TEMPORAL SENTIMENT TRENDS
+--------------------------------------------------------------------------------
+
+Daily Average Sentiment:
+2025-11-02: 48.00 (n=33.0)
+2025-11-03: 27.17 (n=52.0)
+2025-11-04: 99.00 (n=1.0)

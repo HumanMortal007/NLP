@@ -1,0 +1,35 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+websockets==12.0
+
+# YouTube API
+google-api-python-client==2.108.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+
+# AI/ML Libraries
+transformers==4.35.2
+torch==2.1.1
+google-generativeai==0.3.1
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+scikit-learn==1.3.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# Text Processing
+nltk==3.8.1
+emoji==2.8.0
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+tqdm==4.66.1
+pydantic==2.5.0

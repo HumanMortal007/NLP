@@ -1,0 +1,140 @@
+================================================================================
+DETAILED SENTIMENT ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-11-23 16:09:11
+Total Comments Analyzed: 311
+
+--------------------------------------------------------------------------------
+OVERALL SENTIMENT DISTRIBUTION
+--------------------------------------------------------------------------------
+Neutral: 166 (53.38%)
+Positive: 73 (23.47%)
+Negative: 72 (23.15%)
+
+Average Confidence Score: 51.01/100
+Median Confidence Score: 50.00/100
+
+--------------------------------------------------------------------------------
+CONFIDENCE SCORE RANGES
+--------------------------------------------------------------------------------
+0-20 (Very Negative): 53 (17.04%)
+20-40 (Negative): 19 (6.11%)
+40-60 (Neutral): 166 (53.38%)
+60-80 (Positive): 15 (4.82%)
+80-100 (Very Positive): 58 (18.65%)
+
+--------------------------------------------------------------------------------
+TOP 10 MOST POSITIVE COMMENTS
+--------------------------------------------------------------------------------
+
+Score: 99.46/100
+Comment: Nothing hits better than when TG posts🎉🎉...
+Author: @BackHandboy
+Likes: 7
+
+Score: 99.39/100
+Comment: Oh cool fortnite simpsons no sweats update and keep making the fantastic video was so amazing tg plays 😊...
+Author: @ElizabethAftontheicecreamgirl
+Likes: 0
+
+Score: 99.2/100
+Comment: On the event im so hyped for ninja turtles king kong and scooby doo...
+Author: @adrianaadrijncic1217
+Likes: 0
+
+Score: 99.2/100
+Comment: Under 8 mins 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉...
+Author: @SCAPE-EDITS
+Likes: 0
+
+Score: 99.11/100
+Comment: Me and my brother play toy bedwars nearly every day it is the best...
+Author: @charlottesteele4384
+Likes: 1
+
+Score: 99.1/100
+Comment: Winning does 100% make you a better player. I&#39;ve gotten TONS better just from playing in this weekend alone!...
+Author: @wildingice2565
+Likes: 0
+
+Score: 99.08/100
+Comment: This is a good update And also hi...
+Author: @whitneyanderson5723
+Likes: 0
+
+Score: 99.05/100
+Comment: first like and comment! i love you TG!...
+Author: @t-dog4788
+Likes: 0
+
+Score: 99.04/100
+Comment: Love your videos ❤...
+Author: @AbdullahAlhujili-xc5gq
+Likes: 0
+
+Score: 98.96/100
+Comment: POV you are the best youtuber what you are the best...
+Author: @atticusalefaio5532
+Likes: 0
+
+--------------------------------------------------------------------------------
+TOP 10 MOST NEGATIVE COMMENTS
+--------------------------------------------------------------------------------
+
+Score: 2.47/100
+Comment: It feels so bad my games have never felt this bad in my life feels most sweaty than usual. I’ve just had a game a second ago....
+Author: @shaunrichardson8533
+Likes: 1
+
+Score: 2.53/100
+Comment: Yeah, right it’s still bad on Xbox. It’s badly sweaty in battle royale and in ranked. Even my aim assist feels bad. My lock on feels really bad and it didn’t use to 2 days back I was fine now it’s jus...
+Author: @shaunrichardson8533
+Likes: 2
+
+Score: 2.6/100
+Comment: Yo gng why the fuck am I playing against unreal players in fucking silver games...
+Author: @Stephfn1
+Likes: 0
+
+Score: 2.93/100
+Comment: The games are like 10x worse idk what epic was on...
+Author: @ArryaThakkar-c8d
+Likes: 1
+
+Score: 3.05/100
+Comment: I don’t think I’m spending money on epic anymore after this gameplay feels so bad assist bad...
+Author: @shaunrichardson8533
+Likes: 0
+
+Score: 3.08/100
+Comment: It feels like there&#39;s more sweats in my games and I m bad at the game...
+Author: @tjreynolds8819
+Likes: 0
+
+Score: 3.17/100
+Comment: nga when tf did you see this false information 💔...
+Author: @AyAySplash
+Likes: 3
+
+Score: 3.19/100
+Comment: My games have never been this bad in my life. It’s been badly sweaty....
+Author: @shaunrichardson8533
+Likes: 7
+
+Score: 3.35/100
+Comment: I’m in gold too in ranked and it’s badly sweaty ridiculous to the point. I can’t do nothing....
+Author: @shaunrichardson8533
+Likes: 1
+
+Score: 3.52/100
+Comment: I think its worse and always seems when i have even a blue it takes loads of shots and when im shot by a grey i get massive impact in 1, feels unfair. this seasons map is rubbish, i thought the samura...
+Author: @DLEN25
+Likes: 0
+
+--------------------------------------------------------------------------------
+TEMPORAL SENTIMENT TRENDS
+--------------------------------------------------------------------------------
+
+Daily Average Sentiment:
+2025-11-23: 51.01 (n=311.0)
