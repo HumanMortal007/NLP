@@ -38,12 +38,18 @@ from data_utilities import (
 YOUTUBE_API_KEY = 'AIzaSyA-PBiOG1Xj3kn1ZnKQxyiLzcmmUnl2u-c'
 GEMINI_API_KEY = 'AIzaSyBRtmiRIwGZwoi_lSCz9DDMdCejjb9tLRI'
 
+# Base paths
+BACKEND_DIR = Path(__file__).resolve().parent
+DATA_DIR = BACKEND_DIR / "data"
+OUTPUTS_DIR = DATA_DIR / "outputs"
+BATCHES_DIR = DATA_DIR / "batches"
+VIZ_DIR = DATA_DIR / "visualizations"
+
 app = FastAPI(title="CreatorGPT YouTube Analyzer", version="2.0.0")
 
 # Mount static files for visualizations
-viz_path = Path(__file__).parent / "data" / "visualizations"
-viz_path.mkdir(parents=True, exist_ok=True)
-app.mount("/visualizations", StaticFiles(directory=str(viz_path)), name="visualizations")
+VIZ_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/visualizations", StaticFiles(directory=str(VIZ_DIR)), name="visualizations")
 
 # CORS middleware
 app.add_middleware(
@@ -130,16 +136,16 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         await update_status('running', 0, 'initialization', 'Starting analysis pipeline...')
         
         # Create output directories
-        os.makedirs('backend/data/outputs', exist_ok=True)
-        os.makedirs('backend/data/batches', exist_ok=True)
-        os.makedirs('backend/data/visualizations', exist_ok=True)
+        OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+        BATCHES_DIR.mkdir(parents=True, exist_ok=True)
+        VIZ_DIR.mkdir(parents=True, exist_ok=True)
         
         # Step 1: Extract YouTube comments
         await update_status('running', 5, 'extraction', f'Connecting to YouTube API...')
         
         extractor = YouTubeCommentExtractor(
             YOUTUBE_API_KEY,
-            output_dir='backend/data/outputs'
+            output_dir=str(OUTPUTS_DIR)
         )
         
         await update_status('running', 10, 'extraction', f'Extracting comments from video {video_id}...')
@@ -178,7 +184,7 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         
         batch_files = extractor.create_batches(
             batch_size=batch_size,
-            output_dir='backend/data/batches'
+            output_dir=str(BATCHES_DIR)
         )
         
         await update_status('running', 40, 'batching', 
@@ -189,7 +195,7 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         # Step 3: LLM batch processing with Gemini
         await update_status('running', 45, 'llm_analysis', 'Starting Gemini AI analysis...')
         
-        processor = BatchProcessor(GEMINI_API_KEY, output_dir='backend/data/outputs')
+        processor = BatchProcessor(GEMINI_API_KEY, output_dir=str(OUTPUTS_DIR))
         
         # Process batches with progress updates
         for idx, batch_file in enumerate(batch_files, 1):
@@ -211,11 +217,11 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         # Step 4: Sentiment analysis with transformers
         await update_status('running', 75, 'sentiment', 'Loading sentiment analysis model...')
         
-        analyzer = SentimentAnalyzer(output_dir='backend/data/outputs')
+        analyzer = SentimentAnalyzer(output_dir=str(OUTPUTS_DIR))
         
         await update_status('running', 80, 'sentiment', 'Analyzing sentiment with transformers...')
         
-        df = analyzer.analyze_sentiment('backend/data/outputs/cleaned_all_comments.csv')
+        df = analyzer.analyze_sentiment(str(OUTPUTS_DIR / 'cleaned_all_comments.csv'))
         
         await update_status('running', 90, 'sentiment', 
                           f'✓ Sentiment analysis complete - {len(df)} comments scored')
@@ -240,7 +246,7 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         await update_status('running', 98, 'finalization', 'Compiling final results...')
         
         # Aggregate analytics
-        analytics = aggregate_analytics('backend/data/outputs')
+        analytics = aggregate_analytics(str(OUTPUTS_DIR))
         
         # Compile final results
         # Prepare detailed results for API consumers
@@ -274,8 +280,8 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
             'top_keywords': analytics.get('top_keywords', [])[:20],
             'top_keyword_terms': top_keyword_terms[:20],
             'files': {
-                'comments_csv': 'backend/data/outputs/all_comments.csv',
-                'analyzed_csv': 'backend/data/outputs/sentiment_analyzed_comments.csv',
+                'comments_csv': str(OUTPUTS_DIR / 'all_comments.csv'),
+                'analyzed_csv': str(OUTPUTS_DIR / 'sentiment_analyzed_comments.csv'),
                 'detailed_report': report_file,
                 'comprehensive_analysis': comprehensive_file,
                 'visualizations': viz_files
@@ -284,7 +290,7 @@ async def run_analysis_pipeline(video_id: str, max_comments: int, batch_size: in
         }
         # Generate a minimal creator-focused JSON summary for quick consumption
         try:
-            creator_summary_file = generate_creator_json(analytics, df, output_file='backend/data/outputs/creator_summary.json')
+            creator_summary_file = generate_creator_json(analytics, df, output_file=str(OUTPUTS_DIR / 'creator_summary.json'))
             if creator_summary_file:
                 results['files']['creator_summary'] = creator_summary_file
         except Exception as e:
@@ -386,7 +392,7 @@ async def get_dashboard_data():
     results = analysis_state['results']
     
     try:
-        df = pd.read_csv('backend/data/outputs/sentiment_analyzed_comments.csv')
+        df = pd.read_csv(OUTPUTS_DIR / 'sentiment_analyzed_comments.csv')
         
         # Temporal trends
         temporal_trends = []
@@ -408,10 +414,9 @@ async def get_dashboard_data():
             ]
         
         # Check for visualization files
-        viz_dir = Path('backend/data/visualizations')
         visualizations = []
-        if viz_dir.exists():
-            for viz_file in viz_dir.glob('*.png'):
+        if VIZ_DIR.exists():
+            for viz_file in VIZ_DIR.glob('*.png'):
                 visualizations.append({
                     'name': viz_file.stem,
                     'url': f'http://localhost:8001/visualizations/{viz_file.name}',
@@ -420,10 +425,10 @@ async def get_dashboard_data():
         
         # Load batch summaries
         batch_summaries = []
-        batch_files = sorted([f for f in os.listdir('backend/data/outputs') if f.startswith('batch_') and f.endswith('_analysis.json')])
+        batch_files = sorted([f for f in os.listdir(OUTPUTS_DIR) if f.startswith('batch_') and f.endswith('_analysis.json')])
         for batch_file in batch_files[:10]:  # Show first 10 batches
             try:
-                with open(os.path.join('backend/data/outputs', batch_file), 'r', encoding='utf-8') as f:
+                with open(OUTPUTS_DIR / batch_file, 'r', encoding='utf-8') as f:
                     batch_data = json.load(f)
                     batch_summaries.append({
                         'batch_number': len(batch_summaries) + 1,
@@ -483,14 +488,14 @@ async def chat_with_ai(request: ChatRequest):
     
     try:
         # Load comment data
-        df = pd.read_csv('backend/data/outputs/sentiment_analyzed_comments.csv')
+        df = pd.read_csv(OUTPUTS_DIR / 'sentiment_analyzed_comments.csv')
         results = analysis_state.get('results', {})
         
         # Load batch analyses if available
         batch_insights = []
-        batch_files = [f for f in os.listdir('backend/data/outputs') if f.startswith('batch_') and f.endswith('_analysis.json')]
+        batch_files = [f for f in os.listdir(OUTPUTS_DIR) if f.startswith('batch_') and f.endswith('_analysis.json')]
         for batch_file in batch_files[:5]:  # Use first 5 batches as context
-            with open(os.path.join('backend/data/outputs', batch_file), 'r', encoding='utf-8') as f:
+            with open(OUTPUTS_DIR / batch_file, 'r', encoding='utf-8') as f:
                 batch_insights.append(json.load(f))
         
         # Create context from analysis results (keep minimal and robust)

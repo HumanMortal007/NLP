@@ -171,7 +171,7 @@ const FullScreenDashboard = ({ onReset }) => {
       </div>
 
       {/* Overview Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
         <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-500">
           <p className="text-gray-600 text-sm font-medium">Comments Analyzed</p>
           <p className="text-4xl font-bold text-gray-800 mt-2">
@@ -200,13 +200,6 @@ const FullScreenDashboard = ({ onReset }) => {
               ? ((safeSentiment.positive / safeOverview.total_comments) * 100).toFixed(1) 
               : '0'}%
           </p>
-        </div>
-        <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-orange-500">
-          <p className="text-gray-600 text-sm font-medium">Comment Likes</p>
-          <p className="text-4xl font-bold text-orange-600 mt-2">
-            {(safeEngagement.comment_likes_total || safeEngagement.total_likes || 0).toLocaleString()}
-          </p>
-          <p className="text-xs text-gray-500 mt-1">avg {(safeEngagement.comment_likes_avg || safeEngagement.avg_likes || 0).toFixed(1)}</p>
         </div>
       </div>
 

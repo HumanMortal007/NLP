@@ -76,8 +76,9 @@ CreatorGPT is an end-to-end NLP pipeline that:
 ### Backend Setup
 
 ```powershell
-# Clone or navigate to project directory
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+# Clone repository
+git clone https://github.com/HumanMortal007/NLP.git
+cd NLP
 
 # Create virtual environment (if not exists)
 python -m venv venv

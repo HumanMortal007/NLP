@@ -4,7 +4,7 @@
 
 ### Option 1: Automated Startup (Recommended)
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 .\start.ps1
 ```
 This automatically:
@@ -18,13 +18,13 @@ This automatically:
 
 **Terminal 1 - Backend:**
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 python backend/api_enhanced.py
 ```
 
 **Terminal 2 - Frontend:**
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd NLP/frontend
 npm run dev
 ```
 
@@ -39,7 +39,7 @@ Open: http://localhost:3000
 
 ### Install Frontend Dependencies (One-Time)
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd NLP/frontend
 npm install
 ```
 
@@ -136,7 +136,7 @@ Make sure backend is running on port 8000
 
 All results saved to:
 ```
-c:\Users\Thoshan\Desktop\python\nlp\data\
+backend/data/
 ```
 
 Files created:

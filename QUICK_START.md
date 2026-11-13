@@ -14,7 +14,9 @@ This system allows you to input a YouTube video ID through a browser interface a
 
 **Navigate to project directory:**
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+# Clone or navigate to the repository
+git clone https://github.com/HumanMortal007/NLP.git
+cd NLP
 ```
 
 **Install Python dependencies (already done):**
@@ -40,7 +42,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8000
 
 **Open a NEW terminal and navigate to frontend folder:**
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd frontend
 ```
 
 **Install Node dependencies:**

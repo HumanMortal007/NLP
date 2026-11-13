@@ -2,140 +2,140 @@
 DETAILED SENTIMENT ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-11-04 10:25:13
-Total Comments Analyzed: 86
+Generated: 2025-11-27 10:41:53
+Total Comments Analyzed: 96
 
 --------------------------------------------------------------------------------
 OVERALL SENTIMENT DISTRIBUTION
 --------------------------------------------------------------------------------
-Negative: 55 (63.95%)
-Positive: 31 (36.05%)
+Negative: 58 (60.42%)
+Neutral: 35 (36.46%)
+Positive: 3 (3.12%)
 
-Average Confidence Score: 36.00/100
-Median Confidence Score: 1.00/100
+Average Confidence Score: 28.45/100
+Median Confidence Score: 18.58/100
 
 --------------------------------------------------------------------------------
 CONFIDENCE SCORE RANGES
 --------------------------------------------------------------------------------
-0-20 (Very Negative): 55 (63.95%)
-20-40 (Negative): 0 (0.00%)
-40-60 (Neutral): 0 (0.00%)
+0-20 (Very Negative): 51 (53.12%)
+20-40 (Negative): 7 (7.29%)
+40-60 (Neutral): 35 (36.46%)
 60-80 (Positive): 0 (0.00%)
-80-100 (Very Positive): 31 (36.05%)
+80-100 (Very Positive): 3 (3.12%)
 
 --------------------------------------------------------------------------------
 TOP 10 MOST POSITIVE COMMENTS
 --------------------------------------------------------------------------------
 
-Score: 99/100
-Comment: The Simpson is a fire partnership...
-Author: @Philly_prod532
-Likes: 77
-
-Score: 99/100
-Comment: No need to take it so seriously...
-Author: @mopedhufsa8251
-Likes: 0
-
-Score: 99/100
-Comment: @viniitnneither do I, and I still know he’s played enough of the game to not be so shit...
-Author: @OLS20
+Score: 97.1/100
+Comment: Beautifully explained....
+Author: @sudiptobiswas6114
 Likes: 1
 
-Score: 99/100
-Comment: @OLS20 exactly it&#39;s basic game sense, shows the years have finally gotten to him...
-Author: @saltybread7297
+Score: 96.79/100
+Comment: 👍👍👍👍👍👍👍👍👍👍👍...
+Author: @dilkhushKumar-nm9rn
+Likes: 2
+
+Score: 91.43/100
+Comment: 印度已經投降😂😂😂😂❤美國爸爸...
+Author: @桂旭暉
 Likes: 0
 
-Score: 99/100
-Comment: Why doesn&#39;t Vik post his Fortnite gaming? We want to see more perspectives....
-Author: @juniorlandsberg4142
-Likes: 168
-
-Score: 99/100
-Comment: @NaDan.5nah I mean Vikstar. From the last game. I wanted to see his play....
-Author: @juniorlandsberg4142
-Likes: 14
-
-Score: 99/100
-Comment: As much as I&#39;d love that remake we aint ready for it as much as we think we are, just look at the GTA trilogy remakes and how they launched 💀💀...
-Author: @MachBProductions
+Score: 50.0/100
+Comment: Tables will not turn. America will look into new markets....
+Author: @destiny4936
 Likes: 1
 
-Score: 99/100
-Comment: Just wanted to say I appreciate the 1440p quality 👌👌...
-Author: @MISHY_RSA
-Likes: 13
-
-Score: 99/100
-Comment: Ya know what would be nice every season.. OUR TEAMS ACTUALLY FIGHTING...
-Author: @akarlolol172
+Score: 50.0/100
+Comment: they cant search fo4 new market go and check the rates glibally india exports for the most affordable price and if india say no for not even for 1 month just for 15 days the medicine price in america ...
+Author: @omchahal9852
 Likes: 0
 
-Score: 99/100
-Comment: What a fun game staying away from action for 45 mins...
-Author: @husquy100
-Likes: 6
+Score: 50.0/100
+Comment: India dare not to do so....
+Author: @joeblack888
+Likes: 1
+
+Score: 50.0/100
+Comment: Even Heard Island and McDonald Islands. 😂😂😂...
+Author: @juderamnarine5617
+Likes: 1
+
+Score: 50.0/100
+Comment: Tje fact is Modi has capitulated to Trump and will stop purchasing Russian oil. Right, Palki!...
+Author: @jg3402
+Likes: 2
+
+Score: 50.0/100
+Comment: Let them keep the tariff at 50 or raise it . We can stop the trade deal and explore other countries for our exports. Hope country is already working on it ....
+Author: @ravindranmokkilmaruthur23
+Likes: 0
+
+Score: 50.0/100
+Comment: 印度第一名来自中国的爱...
+Author: @yangfan4889
+Likes: 2
 
 --------------------------------------------------------------------------------
 TOP 10 MOST NEGATIVE COMMENTS
 --------------------------------------------------------------------------------
 
-Score: 0/100
-Comment: Simon is officially an unc. Dude not paying attention to his chat saying reload ar but sees the chat say holy camping lmao...
-Author: @AustinJD17
-Likes: 80
+Score: 3.34/100
+Comment: America has been very anti india under this mad man .I am ashamed that india reduced oil purchase from Russia and bowed to illegal American economic terrorism ! It&#39;s imp to fight this neo imperial...
+Author: @khan123-r1o
+Likes: 7
 
-Score: 0/100
-Comment: And left a golden scar and leaving 3 big pots for 2 mini&#39;s........
-Author: @Kawasaki1809
-Likes: 2
-
-Score: 0/100
-Comment: @Kawasaki1809 he doesnt play regularly...
-Author: @viniitn
+Score: 3.67/100
+Comment: US unintelligent agent. Weapons of mass deception....
+Author: @BLUERAY1611
 Likes: 0
 
-Score: 0/100
-Comment: Who&#39;s we? I don&#39;t want to see him play Fortnite lmao...
-Author: @HSTLMLWL
-Likes: 4
-
-Score: 0/100
-Comment: Can’t believe we got Fortnite simpsons before hit and run remastered. Fr, Fortnite cooked...
-Author: @CODBotDAN
-Likes: 27
-
-Score: 0/100
-Comment: Simon talking about being a certain level of Simpsons fan and then referring to Steamed hams as “burgers” and then not knowing how to get upstairs in the simpsons house… disappointing...
-Author: @jacksamuel_97
-Likes: 1
-
-Score: 0/100
-Comment: Huh bot?...
-Author: @sameedarceusmaster6333
+Score: 3.79/100
+Comment: Land🤬...
+Author: @ranvirkumarrohit9441
 Likes: 0
 
-Score: 0/100
-Comment: ​​@sameedarceusmaster6333wdym...
-Author: @MISHY_RSA
+Score: 3.81/100
+Comment: USA is the drug mafia no.1 🤡...
+Author: @christianoronaldo2189
 Likes: 0
 
-Score: 0/100
-Comment: This could be a sidemen among us mod? perhaps?...
-Author: @lorenzovonmatterhorn6773
-Likes: 1
+Score: 4.07/100
+Comment: We are sinking, and you&#39;re worried about Pakistanis....
+Author: @markvelber8664
+Likes: 0
 
-Score: 0/100
-Comment: Never heard anyone call it a 50 pot 😂. I&#39;ve always called it a half pot....
-Author: @MrWobbless89JoshTiley
-Likes: 1
+Score: 4.22/100
+Comment: No we aren&#39;t bootlickers like shebazz and munir sending troops to gaza and participating in a genocide...
+Author: @leonbarboza1619
+Likes: 3
+
+Score: 4.35/100
+Comment: They are an enemy. In case you haven&#39;t noticed they keep scamming our senior citizens, running bot farms to divide us, and they hack our computers....
+Author: @lalodaniels1388
+Likes: 3
+
+Score: 4.49/100
+Comment: It is a well known fact that America has a drug addiction and in all walks of the population.and it is this addiction that is fuelling the moral decline of America...
+Author: @josephmathews9908
+Likes: 0
+
+Score: 4.7/100
+Comment: USA intelligence isn&#39;t very intelligent!...
+Author: @koolkatfelix9500
+Likes: 0
+
+Score: 4.72/100
+Comment: U can blame china not India palki will cry soon my India poor India corrupted India and I...
+Author: @user-lj6nv4lh4d
+Likes: 0
 
 --------------------------------------------------------------------------------
 TEMPORAL SENTIMENT TRENDS
 --------------------------------------------------------------------------------
 
 Daily Average Sentiment:
-2025-11-02: 48.00 (n=33.0)
-2025-11-03: 27.17 (n=52.0)
-2025-11-04: 99.00 (n=1.0)
+2025-11-26: 31.00 (n=62.0)
+2025-11-27: 23.79 (n=34.0)

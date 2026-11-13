@@ -115,7 +115,7 @@ npm --version
 ### Step 1: Backend Setup
 ```powershell
 # Navigate to project
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 
 # Install Python dependencies (already done)
 pip install google-api-python-client google-generativeai transformers torch pandas matplotlib seaborn fastapi uvicorn websockets
@@ -134,7 +134,7 @@ INFO:     Application startup complete.
 ### Step 2: Frontend Setup (New Terminal)
 ```powershell
 # Navigate to frontend
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd NLP/frontend
 
 # Install Node dependencies
 npm install

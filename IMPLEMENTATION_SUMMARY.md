@@ -209,7 +209,7 @@ Form → Analysis → Dashboard → (Reset) → Form
 
 **Usage:**
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 .\start.ps1
 ```
 
@@ -387,7 +387,7 @@ const handleSubmit = async (e) => {
 ### Quick Test
 ```powershell
 # Terminal 1: Start everything
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 .\start.ps1
 
 # Browser opens automatically to http://localhost:3000
@@ -470,19 +470,19 @@ This installs:
 
 ### 1. Install Frontend Dependencies
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd NLP/frontend
 npm install
 ```
 
 ### 2. Start Backend
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp"
+cd NLP
 python backend/api_enhanced.py
 ```
 
 ### 3. Start Frontend (New Terminal)
 ```powershell
-cd "c:\Users\Thoshan\Desktop\python\nlp\frontend"
+cd NLP/frontend
 npm run dev
 ```
 
